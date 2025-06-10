@@ -1,0 +1,6 @@
+<?php
+
+define('RECAPTCHA_SITE_KEY', '');
+define('RECAPTCHA_SECRET_KEY', '');
+define('GOOGLE_CONSOLE_API_KEY', '');
+define('RECAPTCHA_URL', 'https://recaptchaenterprise.googleapis.com/v1/projects/my-project-id/assessments?key=' . GOOGLE_CONSOLE_API_KEY);
